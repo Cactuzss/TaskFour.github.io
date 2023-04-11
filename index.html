@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel = "stylesheet" href = "Stuff/cssucc.css">
+
+    </head>
+
+    <body>
+
+        <form class = "xd">
+
+            <div class="xd__head">
+                <br>
+                Какая я лягушка?
+            
+                <div class = "xd__picture">
+                    <img src = "Stuff/frogPic.png">
+                </div>
+
+                <div class = "xd__head--subtext">
+                    К сожалению, этот вопрос крайне сложен, но для ответа на него нужно немного информации
+                </div>
+
+                <hr>
+            </div>
+
+            <div class = "xd__body">
+
+                <div class = "xd__body_column">
+
+                    <label for="Name" >        Имя   </label><br>
+                    <input type="text" name="Name"       id="Name"/><br>
+
+                    
+                    <label for="SecondName" >  Фамилия   </label><br>
+                    <input type="text" name="SecondName" id="SecondName" /><br>
+
+
+                    <label for="tfisthis" >  Отчество   </label><br>
+                    <input type="text" name="tfisthis" id="tfisthis"/><br>
+
+                    
+                </div>
+
+                <div class = "xd__body_column">
+
+                    <label for="card" > Номер банковской карты </label><br>
+                    <input type="text" name="card" id="card" placeholder="0000 0000 0000 0000"/><br>
+
+
+                    <label for="date" > Дата написанная на карте </label><br>
+                    <input type="text" name="date" id="date" placeholder = "ММ.ГГ"/><br>
+
+
+                    <label for="date" > Код с обратной стороны </label><br>
+                    <input type="text" name="date" id="date" placeholder = "CVC"/><br>
+
+                </div>
+
+
+                <div class = "xd__body_column">
+
+                    <label for="card" > Немного информации о себе </label><br>
+                    <input type="text" name="card" id="card"  class="xd__body__textbox"
+                    placeholder="Сюда сойдёт любая информация!"><br>
+
+                    <span class = "xd__body__obj">
+                        <label for="newsletter" class="xd__body__checbox--label">Я подтверждаю корректность всех данных</label>
+                        <input type="checkbox" name="newsletter" id="newsletter" class="xd__body__checbox"/>
+                    </span> 
+                    <br>
+
+                    <span class = "xd__body__obj">
+                        <label for="thing" class="xd__body__checbox--label">
+                            Я прочитал пользовательское <a href = "https://clck.ru/3vyXS">соглашение</a> 
+                        </label>
+                        <input type="checkbox" name="thing" id="thing" class="xd__body__checbox"/>
+                    </span> 
+                    <br>
+                </div>
+
+            </div>
+                
+                <div class="xd__submit__button">
+                    <button type="submit" class="xd__submit__button">
+                        Отправить
+                    </button>
+                </div>
+
+        </form>
+
+    </body>
+</html>

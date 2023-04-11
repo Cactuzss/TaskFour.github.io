@@ -1,0 +1,83 @@
+
+body
+{
+    background-color: rgba(67, 129, 59, 0.225);
+}
+
+.xd
+{
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 10%;
+    margin-bottom: 0%;
+
+    background-color: rgb(255, 255, 255);
+}
+
+.xd__head
+{
+    font-size: x-large;
+    text-align: Left;    
+
+    margin-left: 8%;
+    margin-right: 8%;
+    
+}
+
+.xd__head--subtext
+{
+    font-size: small;
+}
+
+.xd__picture img
+{
+    width: 0.15%;
+}
+
+.xd__body
+{
+    margin-left: 8%;
+    font-size: 20px;
+    display: flex   ;
+    flex-direction: row;
+}
+
+.xd__body_column
+{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    margin-right: 10%;
+}
+
+.xd__body__textbox
+{
+    height: 25%;
+}
+
+.xd__body__checbox--label
+{
+    display: inline;
+    font-size: small;
+}
+
+.xd__body__checbox
+{
+    display: inline;
+}
+
+.xd__body__obj
+{
+    margin-bottom: 4%;
+    margin-left: 10px;
+}
+
+.xd__submit__button
+{
+    display: flex;
+    flex-direction: row;
+    align-items: end;
+    margin-left: 59%;
+    margin-bottom: 10%;
+}
+
